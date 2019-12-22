@@ -1,1 +1,3 @@
-Hello world!
+<?php
+    require('../app/bootstrap.php');
+?>
