@@ -1,7 +1,15 @@
 <?php
     class Pages{
         public function __construct(){
-            echo 'Pages loaded';
+            
+        }
+
+        public static function index(){
+            
+        }
+
+        public static function about($id){
+            echo $id;
         }
     }
 ?>
