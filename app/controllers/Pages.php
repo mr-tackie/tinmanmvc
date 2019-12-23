@@ -4,8 +4,10 @@
             
         }
 
-        public static function index(){
-            self::view('Hello');
+        public function index(){
+            $data = ['title' => 'Welcome'];
+
+            $this->view('pages/index', $data);
         }
     }
 ?>
